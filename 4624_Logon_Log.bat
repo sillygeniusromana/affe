@@ -1,0 +1,1 @@
+PowerShell.exe -Command "D:\SCRIPTS\login_user_log_successfull.ps1"

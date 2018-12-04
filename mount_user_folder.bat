@@ -1,0 +1,1 @@
+net use A: "\\cbsgl-xx\%USERNAME%"
