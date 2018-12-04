@@ -1,0 +1,30 @@
+cd c:\windows\system32
+dir *.exe | more
+dir a* /p
+dir /ah /os
+
+d:
+mkdir TXT
+cd TXT
+mkdir WORK, PRIVATE, FONTS
+cd WORK
+mkdir "Company A", "Company B"
+cd "Company A"
+mkdir FONTS
+cd ..\"Company B"
+mkdir FONTS
+
+copy c:\windows\fonts\a* d:\txt\fonts
+
+del app*
+
+copy .\ar* "..work\company a\fonts
+move .\arial* "..work\company b\fonts
+
+tasklist > tasklistA.txt
+tasklist > tasklistB.txt
+
+fc *tasklistA* *tasklistB* /a
+
+copy *tasklistA.txt* + *tasklistB.txt* *tasklistFull.txt*
+

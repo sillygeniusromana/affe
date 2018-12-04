@@ -1,0 +1,1 @@
+mkdir e:\batch, e:\batch\user, e:\batch\text, e:\batch\system, e:\batch\user\user1, e:batch\user\user2
